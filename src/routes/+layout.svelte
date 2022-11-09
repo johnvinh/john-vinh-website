@@ -1,18 +1,19 @@
 <script>
     import '$lib/bootstrap.min.css';
+    import '$lib/bootstrap.css';
     import '$lib/style.css';
 </script>
 
 <header>
     <nav class="navbar navbar-expand">
         <div class="container">
-            <a href="#" class="navbar-brand">John Vinh</a>
+            <a href="/" class="navbar-brand">John Vinh</a>
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a href="#" class="nav-link">Home</a>
+                    <a href="/" class="nav-link">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link">About</a>
+                    <a href="/" class="nav-link">About</a>
                 </li>
             </ul>
         </div>
@@ -24,7 +25,7 @@
 
 <style>
     header {
-        background-color: #001514;
+        background-color: #4381C1;
         color: #fff;
     }
 
