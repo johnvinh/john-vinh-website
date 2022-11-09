@@ -1,5 +1,6 @@
 <script>
     import '$lib/bootstrap.min.css';
+    import '$lib/style.css';
 </script>
 
 <header>
@@ -22,5 +23,13 @@
 </main>
 
 <style>
+    header {
+        background-color: #065143;
+        color: #fff;
+    }
 
+    a {
+        color: #fff;
+        text-decoration: none;
+    }
 </style>
