@@ -5,7 +5,7 @@
 </script>
 
 <header>
-    <nav class="navbar navbar-expand">
+    <nav class="navbar navbar-expand bg-secondary bg-gradient">
         <div class="container">
             <a href="/" class="navbar-brand">John Vinh</a>
             <ul class="navbar-nav">
