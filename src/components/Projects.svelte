@@ -24,10 +24,10 @@
                 <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
                     <svg class="bi" width="1em" height="1em"><use xlink:href="#people-circle"/></svg>
                 </div>
-                <h3 class="fs-2">Featured title</h3>
-                <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
-                <a href="/" class="icon-link d-inline-flex align-items-center">
-                    Call to action
+                <h3 class="fs-2">NumPuz</h3>
+                <p>I made a Java GUI version of the classic NumPuz game. This application was created as a project for school.</p>
+                <a href="https://github.com/johnvinh/AlgonquinF22Java" class="icon-link d-inline-flex align-items-center">
+                    GitHub Repository
                     <svg class="bi" width="1em" height="1em"><use xlink:href="#chevron-right"/></svg>
                 </a>
             </div>
