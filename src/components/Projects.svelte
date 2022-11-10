@@ -30,6 +30,6 @@
 
 <style>
     #outer * {
-        color: #000;
+        color: #fff;
     }
 </style>

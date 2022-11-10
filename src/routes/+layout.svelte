@@ -25,7 +25,7 @@
 
 <style>
     a {
-        color: #000;
+        color: #fff;
         text-decoration: none;
     }
 </style>
