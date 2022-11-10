@@ -6,8 +6,8 @@
                 <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
                     <svg class="bi" width="1em" height="1em"><use xlink:href="#collection"/></svg>
                 </div>
-                <h3 class="fs-2">Featured title</h3>
-                <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
+                <h3 class="fs-2">GloomyBB</h3>
+                <p>A forum software designed for ease of communication among users. Contains typical forum features such as creation of categories, forums, posts, topics, and users.</p>
                 <a href="/" class="icon-link d-inline-flex align-items-center">
                     Call to action
                     <svg class="bi" width="1em" height="1em"><use xlink:href="#chevron-right"/></svg>
