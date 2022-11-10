@@ -4,7 +4,7 @@
         <div class="row g-4 py-5 row-cols-1">
             <div class="feature col">
                 <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
-                    <svg class="bi" width="1em" height="1em"><use xlink:href="#collection"/></svg>
+                    <img src="/images/gloomybb.png" alt="GloomyBB" id="gloomybb-image">
                 </div>
                 <h3 class="fs-2">GloomyBB</h3>
                 <p>A forum software designed for ease of communication among users. Contains typical forum features such as creation of categories, forums, posts, topics, and users.</p>
@@ -38,5 +38,10 @@
 <style>
     #outer * {
         color: #fff;
+    }
+
+    #gloomybb-image {
+        width: 391px;
+        height: 189px;
     }
 </style>
