@@ -24,13 +24,8 @@
 </main>
 
 <style>
-    header {
-        background-color: #4381C1;
-        color: #fff;
-    }
-
     a {
-        color: #fff;
+        color: #000;
         text-decoration: none;
     }
 </style>
