@@ -26,10 +26,13 @@
                 </div>
                 <h3 class="fs-2">NumPuz</h3>
                 <p>I made a Java GUI version of the classic NumPuz game. This application was created as a project for school.</p>
-                <a href="https://github.com/johnvinh/AlgonquinF22Java" class="icon-link d-inline-flex align-items-center">
-                    GitHub Repository
-                    <svg class="bi" width="1em" height="1em"><use xlink:href="#chevron-right"/></svg>
-                </a>
+                <img src="/images/java-logo.svg" alt="Java" width="50" height="50">
+                <p>
+                    <a href="https://github.com/johnvinh/AlgonquinF22Java" class="icon-link d-inline-flex align-items-center">
+                        GitHub Repository
+                        <svg class="bi" width="1em" height="1em"><use xlink:href="#chevron-right"/></svg>
+                    </a>
+                </p>
             </div>
         </div>
     </div>
