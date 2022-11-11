@@ -49,7 +49,7 @@
                 <h3 class="fs-2">GloomyBB</h3>
                 <p>A forum software designed for ease of communication among users. Contains typical forum features such as creation of categories, forums, posts, topics, and users.</p>
                 <img src="/images/php-logo.svg" alt="PHP" width="50" height="50">
-                <img src="/images/mariadb-logo.svg" alt="MariaDB" width="50" height="50">
+                <img src="/images/mariadb-logo-black.svg" alt="MariaDB" width="50" height="50">
                 <img src="/images/html5-logo.svg" alt="HTML5" width="50" height="50">
                 <img src="/images/css-logo.svg" alt="CSS" width="50" height="50">
                 <img src="/images/js-logo.svg" alt="JavaScript" width="50" height="50">
