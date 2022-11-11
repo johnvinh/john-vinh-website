@@ -22,6 +22,11 @@
 <main>
     <slot></slot>
 </main>
+<footer>
+    <div class="container">
+        <p>Copyright &copy; 2022 John Vinh</p>
+    </div>
+</footer>
 
 <style>
     a {
