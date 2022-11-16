@@ -1,13 +1,10 @@
 <script>
     import Title from '../../components/Title.svelte';
     import Post from '../../components/Post.svelte';
-    import {getPosts} from '../../lib/api.js';
 
-    let posts;
-    (async () =>
-    {
-        posts = await getPosts();
-    })();
+    export let data;
+
+    let posts = JSON.parse(data.posts);
 
 </script>
 
