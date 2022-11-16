@@ -1,0 +1,10 @@
+<h1 class="text-5xl">
+    <slot></slot>
+</h1>
+
+<style>
+    h1 {
+        border-bottom: #E63946 3px solid;
+        display: inline-block;
+    }
+</style>

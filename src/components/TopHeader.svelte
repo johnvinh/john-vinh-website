@@ -1,7 +1,11 @@
+<script>
+    import Title from './Title.svelte';
+</script>
+
 <section class="text-center">
-    <h1 class="text-5xl">
+    <Title>
         Hi, I'm John! 👋
-    </h1>
+    </Title>
     <p class="text-3xl">
         I'm a computer engineering college student and software developer.
         I love making things for other people to enjoy! I also love coffee ☕
