@@ -32,7 +32,11 @@
 <style>
     :global(body) {
         font-family: "Ubuntu", "Verdana", serif;
-        background-color: #88CCF1;
+        background-color: #F1FAEE;
         color: #000;
+    }
+
+    :global(a) {
+        color: #E63946;
     }
 </style>
