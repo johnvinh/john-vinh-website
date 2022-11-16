@@ -5,11 +5,13 @@
     export let info;
     export let mainImage;
     export let technologies;
+    export let link;
 </script>
 
 <div class="mt-10">
     <img src="/images/{mainImage}" class="w-1/3 mx-auto" alt="{title} logo">
     <h3 class="text-2xl text-center">{title}</h3>
+    <a class="text-center" href={link} >Project Link</a>
     <p>{info}</p>
     <h4 class="font-bold my-5">Technologies Used</h4>
     <div class="flex flex-row space-x-5">

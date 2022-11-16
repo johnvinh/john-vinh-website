@@ -36,7 +36,7 @@
                         image: "php-logo.svg"
                     }
                 ]
-                 } />
+                 } link="https://github.com/johnvinh/gloomybb" />
         <Project title="NumPuz"
                  info="I created a Java GUI application version of the classic NumPuz game. This game was developed
             for a Java class in college."
@@ -50,6 +50,7 @@
                     }
                 ]
                  }
+                 link="https://github.com/johnvinh/AlgonquinF22Java"
         />
     </div>
 </section>
