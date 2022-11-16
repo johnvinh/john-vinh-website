@@ -5,7 +5,7 @@
 <section class="mt-10">
     <h2 class="text-center text-3xl">My Projects</h2>
     <p>Here are some of the things I've built!</p>
-    <div class="flex flex-col space-x-10">
+    <div class="flex flex-col">
         <Project title="GloomyBB"
                  info="GloomyBB is a forum software designed to allow users to communicate with ease.
                 Users can share their ideas across different categories and forums."
