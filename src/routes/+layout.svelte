@@ -1,6 +1,5 @@
 <script>
     import "../app.css";
-    import "$lib/style.css";
 </script>
 
 <svelte:head>
@@ -17,13 +16,23 @@
     <main class="w-1/2 mx-auto">
         <slot></slot>
     </main>
-    <footer class="mt-10">
-        <p>John Vinh &copy; 2022</p>
+    <footer class="flex flex-row mt-10 w-1/2 mx-auto justify-center">
+        <a href="https://www.linkedin.com/in/john-vinh/">
+            <img src="/images/linkedin-logo.svg" alt="LinkedIn logo" class="w-[50px] h-[50px]">
+        </a>
+        <a href="https://twitter.com/JohnVinhDev">
+            <img src="/images/twitter-logo.svg" alt="Twitter logo" class="w-[50px] h-[50px]">
+        </a>
+        <a href="https://github.com/johnvinh">
+            <img src="/images/github-logo.svg" alt="GitHub logo" class="w-[50px] h-[50px]">
+        </a>
     </footer>
 </div>
 
 <style>
     #content {
         font-family: "Ubuntu", "Verdana", serif;
+        background-color: #88CCF1;
+        color: #000;
     }
 </style>
