@@ -1,15 +1,8 @@
 <script>
     import Title from '../../../components/Title.svelte';
-    import {getPostById} from '$lib/api.js';
-    import {page} from '$app/stores';
 
-    let id = $page.url.searchParams.get('id');
-
-    let post;
-
-    (async () => {
-        post = await getPostById(id);
-    })();
+    export let data;
+    let post = JSON.parse(data.post);
 </script>
 
 {#if post}
@@ -17,4 +10,9 @@
         {post.title}
     </Title>
     <p>{post.content}</p>
+{/if}
+{#if !post}
+    <Title>
+        Loading...
+    </Title>
 {/if}
