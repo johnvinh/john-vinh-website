@@ -8,6 +8,8 @@
 </script>
 
 <div class="mt-5">
-    <h2 class="text-4xl">{post.title}</h2>
+    <a href="/blog/post?id={post.id}">
+        <h2 class="text-4xl">{post.title}</h2>
+    </a>
     <p>{prettyDate}</p>
 </div>
