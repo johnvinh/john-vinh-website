@@ -1,9 +1,12 @@
 <script>
     import Project from './Project.svelte';
+    import Subtitle from './Subtitle.svelte';
 </script>
 
 <section class="mt-10">
-    <h2 class="text-center text-3xl">My Projects</h2>
+    <Subtitle>
+        My Projects
+    </Subtitle>
     <p>Here are some of the things I've built!</p>
     <div class="flex flex-col">
         <Project title="GloomyBB"
