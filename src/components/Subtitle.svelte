@@ -1,4 +1,4 @@
-<h2 class="text-4xl mt-10">
+<h2 class="text-4xl my-10">
     <slot></slot>
 </h2>
 
