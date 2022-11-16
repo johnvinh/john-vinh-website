@@ -7,5 +7,5 @@
     Oops, something went wrong.
 </h2>
 <p>
-    Click <a href="/">here</a> to go back to the homepage!
+    {$page.error.message} Click <a href="/">here</a> to go back to the homepage!
 </p>
