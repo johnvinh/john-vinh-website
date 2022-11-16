@@ -30,7 +30,7 @@
 </div>
 
 <style>
-    #content {
+    :global(body) {
         font-family: "Ubuntu", "Verdana", serif;
         background-color: #88CCF1;
         color: #000;
