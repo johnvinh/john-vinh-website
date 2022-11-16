@@ -1,4 +1,5 @@
 <script>
+    import Title from '../../components/Title.svelte';
     import {getPosts} from '../../lib/api.js';
 
     let posts;
@@ -8,6 +9,10 @@
     })();
 
 </script>
+
+<Title>
+    Blog
+</Title>
 
 {#if posts && posts.length}
     {#each posts as post (post.id)}
