@@ -3,13 +3,17 @@
 
     export let data;
     let post = JSON.parse(data.post);
+    let date = new Date(post.created);
+    let prettyDate =
+        date.toLocaleDateString('en-US', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' });
 </script>
 
 {#if post}
     <Title>
         {post.title}
     </Title>
-    <p>{post.content}</p>
+    <p>{prettyDate}</p>
+    <p class="mt-10">{post.content}</p>
 {/if}
 {#if !post}
     <Title>
