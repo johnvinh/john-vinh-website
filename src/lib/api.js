@@ -17,5 +17,11 @@ export async function getPostById(id)
     const password = import.meta.env.VITE_POCKETBASE_PASSWORD;
     const client = new PocketBase("http://127.0.0.1:8090");
     await client.admins.authViaEmail(email, password);
-    return await client.records.getOne('posts', id);
+    let post;
+    try {
+        post = await client.records.getOne('posts', id);
+    } catch (e) {
+        return null;
+    }
+    return post;
 }
