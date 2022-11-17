@@ -38,7 +38,7 @@ export async function createPost(title, content)
     try {
         await client.records.create('posts', {
             title: title,
-            content: content.replace("\n", "<br />")
+            content: content.replace(/\n/g, "<br />")
         });
     } catch (e) {
         console.log(e);
