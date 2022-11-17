@@ -13,7 +13,9 @@
         {post.title}
     </Title>
     <p>{prettyDate}</p>
-    <p class="mt-10">{post.content}</p>
+    <p class="mt-10">
+        {@html post.content}
+    </p>
 {/if}
 {#if !post}
     <Title>
