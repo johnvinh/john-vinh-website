@@ -46,3 +46,15 @@ export async function createPost(title, content)
     }
     return true;
 }
+
+export async function login(username, password)
+{
+    const host = import.meta.env.VITE_POCKETBASE_HOST;
+    const client = new PocketBase(`${host}:8090`);
+    try {
+        await client.users.authViaEmail(username, password);
+    } catch (e) {
+        return false;
+    }
+    return true;
+}
