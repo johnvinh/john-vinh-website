@@ -27,3 +27,22 @@ export async function getPostById(id)
     }
     return post;
 }
+
+export async function createPost(title, content)
+{
+    const email = import.meta.env.VITE_POCKETBASE_EMAIL;
+    const password = import.meta.env.VITE_POCKETBASE_PASSWORD;
+    const host = import.meta.env.VITE_POCKETBASE_HOST;
+    const client = new PocketBase(`${host}:8090`);
+    await client.admins.authViaEmail(email, password);
+    try {
+        await client.records.create('posts', {
+            title: title,
+            content: content.replace("\n", "<br />")
+        });
+    } catch (e) {
+        console.log(e);
+        return false;
+    }
+    return true;
+}
