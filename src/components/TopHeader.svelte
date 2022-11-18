@@ -3,6 +3,7 @@
 </script>
 
 <section class="text-center">
+    <img src="/images/me.png" class="w-1/6 h-1/6 mx-auto" alt="Picture of me">
     <Title>
         Hi, I'm John! 👋
     </Title>
