@@ -7,7 +7,7 @@
 </svelte:head>
 
 <header class="text-black p-5">
-    <p class="text-center">John Vinh</p>
+    <p class="text-center font-bold">John Vinh</p>
     <nav class="flex flex-row justify-evenly text-2xl font-bold">
         <a href="/">Home</a>
         <a href="/about">About</a>
