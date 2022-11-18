@@ -3,6 +3,9 @@
     import Subtitle from '../../components/Subtitle.svelte';
 </script>
 
+<svelte:head>
+    <title>John Vinh: Software Developer - About</title>
+</svelte:head>
 <Title>
     About Me
 </Title>

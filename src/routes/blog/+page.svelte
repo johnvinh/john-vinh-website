@@ -5,9 +5,11 @@
     export let data;
 
     let posts = JSON.parse(data.posts);
-
 </script>
 
+<svelte:head>
+    <title>John Vinh: Software Developer - Blog</title>
+</svelte:head>
 <Title>
     Blog
 </Title>

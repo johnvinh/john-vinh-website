@@ -3,6 +3,9 @@
 
 </script>
 
+<svelte:head>
+    <title>John Vinh: Software Developer</title>
+</svelte:head>
 <h2 class="text-4xl">
     Oops, something went wrong.
 </h2>
