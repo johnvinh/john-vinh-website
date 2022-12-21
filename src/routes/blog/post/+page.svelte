@@ -29,3 +29,14 @@
         Loading...
     </Title>
 {/if}
+
+<style>
+    p {
+        font-size: 1.2rem;
+    }
+
+    /* Restrict width of content */
+    p, h1, h2, h3, h4, h5, h6 {
+        max-width: 75%;
+    }
+</style>
