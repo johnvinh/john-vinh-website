@@ -50,7 +50,7 @@
                     }
                 ]
                  }
-                 link="https://github.com/johnvinh/AlgonquinF22Java"
+                 link="https://github.com/johnvinh/num-puz"
         />
     </div>
 </section>
