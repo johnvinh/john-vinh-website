@@ -14,7 +14,7 @@
     <section>
         <figure>
             <img src="/images/me.png" class="w-1/6 h-1/6 mx-auto" alt="Picture of me">
-            <figcaption><em class="mx-auto w-1/2 text-center">John Vinh</em></figcaption>
+            <figcaption class="w-1/12 mx-auto"><em>John Vinh</em></figcaption>
         </figure>
         <Subtitle>
             Early On
