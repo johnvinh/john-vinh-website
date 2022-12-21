@@ -42,4 +42,12 @@
     :global(a) {
         color: #E63946;
     }
+
+    :global(a:hover) {
+        color: #A8DADC;
+    }
+
+    :global(a:active) {
+        color: #457B9D;
+    }
 </style>
