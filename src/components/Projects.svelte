@@ -12,6 +12,7 @@
         <Project title="GloomyBB"
                  info="GloomyBB is a forum software designed to allow users to communicate with ease.
                 Users can share their ideas across different categories and forums."
+                 titleImage="gloomybb-title.svg"
                  mainImage="gloomybb.png"
                  technologies={
                  [
@@ -40,6 +41,7 @@
         <Project title="NumPuz"
                  info="I created a Java GUI application version of the classic NumPuz game. This game was developed
             for a Java class in college."
+                 titleImage="num-puz-title.svg"
                  mainImage="numpuz.png"
                  technologies={
                  [
