@@ -13,6 +13,7 @@
     <nav class="flex flex-row justify-evenly text-2xl font-bold">
         <a href="/">Home</a>
         <a href="/about">About</a>
+        <a href="/projects">Projects</a>
         <a href="/blog">Blog</a>
     </nav>
 </header>
