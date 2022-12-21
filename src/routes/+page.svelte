@@ -9,7 +9,7 @@
 </svelte:head>
 <TopHeader />
 <Subtitle>A little about me</Subtitle>
-<p>I love building things for other people to enjoy and enjoy the thrill of solving problems.</p>
+<p>I love building things for others to enjoy and the thrill of solving problems.</p>
 <Subtitle>More</Subtitle>
 <ul>
     <li class="text-3xl">Read more <a href="/about">about me!</a></li>
