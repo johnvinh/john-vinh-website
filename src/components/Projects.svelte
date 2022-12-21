@@ -39,8 +39,7 @@
                 ]
                  } link="https://github.com/johnvinh/gloomybb" />
         <Project title="NumPuz"
-                 info="I created a Java GUI application version of the classic NumPuz game. This game was developed
-            for a Java class in college."
+                 info="NumPuz is a classic puzzle game where the player has to arrange the numbers in order. This game was built using Java Swing."
                  titleImage="num-puz-title.svg"
                  mainImage="numpuz.png"
                  technologies={
@@ -53,6 +52,23 @@
                 ]
                  }
                  link="https://github.com/johnvinh/num-puz"
+        />
+        <Project title="Conway's Game of Life"
+                    info="Conway's Game of Life is a cellular automaton devised by the British mathematician John Horton Conway in 1970.
+                     The user provides an initial input of 'alive' cells and the game automatically evolves based on the rules. This is am implementation
+of the simulation using Java Swing."
+                    titleImage="conway-title.svg"
+                    mainImage="conway.png"
+                    technologies={
+                    [
+                        {
+                            id: 1,
+                            name: "Java",
+                            image: "java-logo.svg"
+                        }
+                    ]
+                    }
+                    link="https://github.com/johnvinh/conways-game-of-life"
         />
     </div>
 </section>
