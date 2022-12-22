@@ -17,7 +17,7 @@
         <a href="/blog">Blog</a>
     </nav>
 </header>
-<main class="w-1/2 mx-auto">
+<main class="w-[65%] md:w-1/2 mx-auto">
     <slot></slot>
 </main>
 <footer class="flex flex-row mt-10 w-1/2 mx-auto justify-center">
