@@ -10,7 +10,7 @@
     About Me
 </Title>
 
-<div>
+<div class="text-md md:text-lg">
     <section>
         <figure>
             <img src="/images/me.png" class="w-1/6 h-1/6 mx-auto" alt="Picture of me">
@@ -38,10 +38,3 @@
         </p>
     </section>
 </div>
-
-<style>
-    p {
-        text-align: justify;
-        font-size: 1.1rem;
-    }
-</style>
