@@ -10,7 +10,7 @@
 
 <header class="text-black p-5">
     <p class="text-center font-bold">John Vinh</p>
-    <nav class="flex flex-row justify-evenly text-2xl font-bold">
+    <nav class="flex flex-row justify-evenly md:text-2xl font-bold">
         <a href="/">Home</a>
         <a href="/about">About</a>
         <a href="/projects">Projects</a>
