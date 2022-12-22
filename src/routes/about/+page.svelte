@@ -13,8 +13,8 @@
 <div class="text-md md:text-lg">
     <section>
         <figure>
-            <img src="/images/me.png" class="w-1/6 h-1/6 mx-auto" alt="Picture of me">
-            <figcaption class="w-1/12 mx-auto"><em>John Vinh</em></figcaption>
+            <img src="/images/me.png" class="w-[30%] h-[30%] lg:w-1/6 lg:h-1/6 mx-auto" alt="Picture of me">
+            <figcaption class="w-fit mx-auto"><em>John Vinh</em></figcaption>
         </figure>
         <Subtitle>
             Early On
