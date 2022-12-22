@@ -20,7 +20,7 @@
         {post.title}
     </Title>
     <p>{prettyDate}</p>
-    <p class="mt-10">
+    <p class="w-fit md:text-2xl lg:w-[75%] mt-10">
         {@html post.content}
     </p>
 {/if}
@@ -29,14 +29,3 @@
         Loading...
     </Title>
 {/if}
-
-<style>
-    p {
-        font-size: 1.2rem;
-    }
-
-    /* Restrict width of content */
-    p, h1, h2, h3, h4, h5, h6 {
-        max-width: 75%;
-    }
-</style>
