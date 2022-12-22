@@ -16,7 +16,7 @@
     <a href={link} ><p class="text-center">Project Link</p></a>
     <p>{info}</p>
     <h4 class="font-bold my-5">Technologies Used</h4>
-    <div class="container flex flex-col md:flex-row lg:flex-row lg:space-x-5">
+    <div class="container flex flex-col md:flex-row lg:flex-row lg:space-x-5 justify-evenly">
         {#each technologies as technology (technology.id)}
             <img src="/images/{technology.image}"
                  class="w-[30%] h-[30%] md:w-[15%] md:h-[15%] lg:w-[8%] lg:h-[8%] max-w-lg" alt="{technology.name} logo">
