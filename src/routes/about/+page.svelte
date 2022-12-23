@@ -4,7 +4,7 @@
 </script>
 
 <svelte:head>
-    <title>John Vinh: Software Developer - About</title>
+    <title>About - John Vinh: Software Developer</title>
 </svelte:head>
 <Title>
     About Me

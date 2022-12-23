@@ -3,7 +3,7 @@
 
     export let data;
     let post = JSON.parse(data.post);
-    $: title = `John Vinh: Software Developer - ${post.title}`;
+    $: title = `${post.title} - John Vinh: Software Developer`;
     let date = new Date(post.created);
     let prettyDate =
         date.toLocaleDateString('en-US', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' });

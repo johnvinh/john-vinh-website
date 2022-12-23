@@ -8,7 +8,7 @@
 </script>
 
 <svelte:head>
-    <title>John Vinh: Software Developer - Blog</title>
+    <title>Blog - John Vinh: Software Developer</title>
 </svelte:head>
 <Title>
     Blog
