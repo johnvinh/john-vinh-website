@@ -10,8 +10,8 @@
 </script>
 
 <div class="mt-10 box">
-    <img src="/images/{titleImage}" alt="{title}" class="w-1/2 mx-auto">
-    <img src="/images/{mainImage}" class="w-1/3 mx-auto" alt="{title} logo">
+    <img src="/images/{titleImage}" alt="{title}" class="md:w-1/2 mx-auto">
+    <img src="/images/{mainImage}" class="md:w-1/3 mx-auto" alt="{title} logo">
     <h3 class="text-2xl text-center">{title}</h3>
     <a href={link} ><p class="text-center">Project Link</p></a>
     <p>{info}</p>
