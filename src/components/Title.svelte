@@ -1,15 +1,4 @@
-<h1 class="text-3xl md:text-5xl">
+<h1 class="text-3xl md:text-5xl border-b-themered border-solid border-b-2 inline-block hover:text-themered
+ transition transition-all ease-in-out duration-300">
     <slot></slot>
 </h1>
-
-<style>
-    h1 {
-        border-bottom: #E63946 3px solid;
-        display: inline-block;
-    }
-
-    h1:hover {
-        color: #E63946;
-        transition: all 0.3s ease;
-    }
-</style>
