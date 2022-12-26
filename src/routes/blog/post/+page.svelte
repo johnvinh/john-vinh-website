@@ -3,14 +3,13 @@
 
     export let data;
     let post = JSON.parse(data.post);
-    $: title = `${post.title} - John Vinh: Software Developer`;
     let date = new Date(post.created);
     let prettyDate =
         date.toLocaleDateString('en-US', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' });
 </script>
 
 <svelte:head>
-    <title>{title}</title>
+    <title>{`${post.title} - John Vinh: Software Developer`}</title>
 </svelte:head>
 {#if post}
     <Title>
