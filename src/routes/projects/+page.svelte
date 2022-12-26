@@ -1,6 +1,6 @@
 <script>
     import Project from '/src/components/Project.svelte';
-    import Subtitle from '/src/components/Subtitle.svelte';
+    import Title from '../../components/Title.svelte';
 </script>
 
 <svelte:head>
@@ -8,9 +8,9 @@
 </svelte:head>
 
 <section class="mt-10">
-    <Subtitle>
+    <Title>
         My Projects
-    </Subtitle>
+    </Title>
     <p>Here are some of the things I've built!</p>
     <div class="flex flex-col">
         <Project title="GloomyBB"
