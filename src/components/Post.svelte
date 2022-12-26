@@ -9,7 +9,7 @@
 
 <div class="mt-5">
     <a href="/blog/post?id={post.id}">
-        <h2 class="text-xl md:text-2xl">{post.title}</h2>
+        <h2 class="text-xl md:text-3xl">{post.title}</h2>
     </a>
-    <p>{prettyDate}</p>
+    <p class="md:text-xl">{prettyDate}</p>
 </div>
