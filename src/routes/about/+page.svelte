@@ -13,7 +13,7 @@
 <div class="text-md md:text-lg">
     <section>
         <figure>
-            <img src="/images/me.png" class="w-[30%] h-[30%] lg:w-1/6 lg:h-1/6 mx-auto" alt="Picture of me">
+            <img src="/images/me.png" class="w-[30%] h-[30%] lg:w-1/6 lg:h-1/6 mx-auto" alt="John Vinh">
             <figcaption class="w-fit mx-auto"><em>John Vinh</em></figcaption>
         </figure>
         <Subtitle>
