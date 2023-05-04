@@ -1,6 +1,4 @@
 <script>
-    import Box from './Box.svelte';
-
     export let title;
     export let description;
     export let image;
@@ -8,7 +6,9 @@
 </script>
 
 <div class="mt-10 box">
-    <img src="{image}" alt="{title}" class="w-full">
+    <a href="{link}" target="_blank">
+        <img src="{image}" alt="{title}" class="w-full">
+    </a>
     <h3 class="text-xl font-bold">{title}</h3>
     <a href="{link}" target="_blank">GitHub Repository</a>
     <p>{description}</p>
