@@ -10,6 +10,7 @@
 
 <svelte:head>
     <title>{`${post.title} - John Vinh: Software Developer`}</title>
+    <link rel="stylesheet" href="/post.css" />
 </svelte:head>
 {#if post}
     <Title>

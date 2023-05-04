@@ -1,0 +1,26 @@
+h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+pre {
+    background-color: #f8f8f8;
+    display: block;
+    padding: 1rem;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+code {
+    display: block;
+    font-family: "Source Code Pro", monospace;
+    background-color: #f8f8f8;
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.25rem;
+}
+
+ol {
+    list-style-type: decimal;
+    margin-left: 1.5rem;
+}
