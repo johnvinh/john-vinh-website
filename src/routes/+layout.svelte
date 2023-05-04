@@ -4,6 +4,7 @@
 
 <svelte:head>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Ubuntu">
+    <link rel="icon" href="favicon.ico" />
     <meta charset="utf-8">
     <meta name="description" content="John Vinh is a computer engineering student and software developer.">
 </svelte:head>
