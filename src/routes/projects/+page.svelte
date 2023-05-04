@@ -70,6 +70,7 @@
                  ]
                  }
                  showTitleImage={false}
+                 link="https://github.com/johnvinh/john-vinh-website"
         />
         <Project title="NumPuz"
                  info="NumPuz is a classic puzzle game where the player has to arrange the numbers in order. This game was built using Java Swing."
