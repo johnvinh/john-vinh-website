@@ -15,7 +15,7 @@
 <section class="flex flex-col">
     <MinecraftProject
         title="One in the Chamber"
-        description="A recreation of the classic Minecraft minigame One in the Chamber, where players have one arrow and one life. If you kill a player, you get an arrow. If you get killed, you lose an arrow. The first player to get 20 kills wins!"
+        description="Inspired by a Krunker game mode of the same name, the goal of this minigame is to get 20 kills while using a bow and arrow which will kill an enemy player instantly. If the player gets a kill, they are rewarded with another arrow."
         image="/images/one-in-the-chamber.png"
         link="https://github.com/johnvinh/one-in-the-chamber"
     />
