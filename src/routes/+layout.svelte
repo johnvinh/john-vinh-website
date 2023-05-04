@@ -15,6 +15,7 @@
         <a href="/about">About</a>
         <a href="/projects">Projects</a>
         <a href="/blog">Blog</a>
+        <a href="/minecraft">Minecraft</a>
     </nav>
 </header>
 <main class="w-[65%] md:w-1/2 mx-auto">
