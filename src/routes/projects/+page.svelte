@@ -41,7 +41,36 @@
                         image: "php-logo.svg"
                     }
                 ]
-                 } link="https://github.com/johnvinh/gloomybb" />
+                 } link="https://github.com/johnvinh/gloomybb"/>
+        <Project title="Personal Portfolio"
+                 info="This website! My website was created using SvelteKit, Tailwind CSS, and a PocketBase backend."
+                 mainImage="website.png"
+                 technologies={
+                 [
+                     {
+                         id: 1,
+                         name: "Svelte",
+                         image: "svelte.svg"
+                     },
+                     {
+                         id: 2,
+                         name: "Tailwind CSS",
+                         image: "tailwind.svg"
+                     },
+                     {
+                         id: 3,
+                         name: "PocketBase",
+                         image: "pocketbase.svg"
+                     },
+                     {
+                         id: 4,
+                         name: "HTML",
+                         image: "html5-logo.svg"
+                     },
+                 ]
+                 }
+                 showTitleImage={false}
+        />
         <Project title="NumPuz"
                  info="NumPuz is a classic puzzle game where the player has to arrange the numbers in order. This game was built using Java Swing."
                  titleImage="num-puz-title.svg"
