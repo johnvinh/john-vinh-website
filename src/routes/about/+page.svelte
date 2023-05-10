@@ -34,7 +34,7 @@
             Now
         </Subtitle>
         <p>
-            I'm a student at Algonquin College in the Computer Engineering Technology - Computing Science program. I recently learned I have a passion for making things for other people to have fun with and enjoy after watching the "Minecraft Championship" event on YouTube. After graduating, I plan to get a software developer job in the tech industry.
+            I'm a student at Algonquin College in the Computer Engineering Technology - Computing Science program. I recently learned I have a passion for making things for other people to have fun with and enjoy after watching the "Minecraft Championship" event on YouTube and playing on the Hypixel Minecraft server with friends. After graduating, I plan to get a software developer job in the tech industry.
         </p>
     </section>
 </div>
