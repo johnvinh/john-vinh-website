@@ -13,7 +13,7 @@
         My Projects
     </Title>
     <p>Here are some of the things I've built!</p>
-    <div class="flex flex-col mt-5">
+    <div class="flex flex-col">
         <Hero>
             <Project title="GloomyBB"
                      info="GloomyBB is a forum software designed to allow users to communicate with ease.

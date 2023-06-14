@@ -3,7 +3,7 @@
     let subtitle = "We provide high quality products and services.";
 </script>
 
-<section class="text-center bg-herobackground text-white py-20 full-width-section">
+<section class="text-center bg-herobackground text-white py-20 full-width-section my-10">
     <div class="container mx-auto">
         <slot></slot>
     </div>
