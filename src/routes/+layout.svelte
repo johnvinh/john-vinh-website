@@ -1,5 +1,6 @@
 <script>
     import "../app.css";
+    import NavigationBar from "../components/NavigationBar.svelte";
 </script>
 
 <svelte:head>
@@ -9,16 +10,7 @@
     <meta name="description" content="John Vinh is a computer engineering student and software developer.">
 </svelte:head>
 
-<header class="text-black p-5">
-    <p class="text-center font-bold">John Vinh</p>
-    <nav class="flex flex-row justify-evenly md:text-2xl font-bold">
-        <a href="/">Home</a>
-        <a href="/about">About</a>
-        <a href="/projects">Projects</a>
-        <a href="/blog">Blog</a>
-        <a href="/minecraft">Minecraft</a>
-    </nav>
-</header>
+<NavigationBar />
 <main class="w-[65%] md:w-1/2 mx-auto">
     <slot></slot>
 </main>
