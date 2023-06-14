@@ -11,6 +11,7 @@ module.exports = {
         selectcyan: "#03DAC6",
         secondarycolor: "#B3B3B3",
         linkpurple: "#BB86FC",
+        herobackground: "#1F1B24",
       }
     },
   },
