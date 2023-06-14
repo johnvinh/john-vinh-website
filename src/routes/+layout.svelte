@@ -22,7 +22,7 @@
         <img src="/images/twitter-logo.svg" alt="Twitter logo" class="w-[50px] h-[50px]">
     </a>
     <a href="https://github.com/johnvinh">
-        <img src="/images/github-logo.svg" alt="GitHub logo" class="w-[50px] h-[50px]">
+        <img src="/images/github-logo-light.svg" alt="GitHub logo" class="w-[50px] h-[50px]">
     </a>
 </footer>
 
