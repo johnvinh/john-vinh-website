@@ -35,7 +35,7 @@
                     {
                         id: 3,
                         name: "MariaDB",
-                        image: "mariadb-logo-black.svg"
+                        image: "mariadb-logo.svg"
                     },
                     {
                         id: 4,
