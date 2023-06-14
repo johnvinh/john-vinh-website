@@ -13,7 +13,7 @@
         My Projects
     </Title>
     <p>Here are some of the things I've built!</p>
-    <div class="flex flex-col">
+    <div class="grid grid-cols-1 gap-8">
         <Project title="GloomyBB"
                  info="GloomyBB is a forum software designed to allow users to communicate with ease.
                 Users can share their ideas across different categories and forums."
