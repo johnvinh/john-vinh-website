@@ -5,7 +5,7 @@
     export let link;
 </script>
 
-<div class="mt-10 box">
+<div class="mt-10">
     <a href="{link}" target="_blank">
         <img src="{image}" alt="{title}" class="w-full">
     </a>

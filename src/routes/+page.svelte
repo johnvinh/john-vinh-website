@@ -1,6 +1,7 @@
 <script>
     import TopHeader from '../components/TopHeader.svelte';
     import Subtitle from '../components/Subtitle.svelte';
+    import Hero from "../components/Hero.svelte";
 </script>
 
 <svelte:head>

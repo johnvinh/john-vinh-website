@@ -1,6 +1,7 @@
 <script>
     import Project from '/src/components/Project.svelte';
     import Title from '../../components/Title.svelte';
+    import Hero from "../../components/Hero.svelte";
 </script>
 
 <svelte:head>
@@ -12,7 +13,7 @@
         My Projects
     </Title>
     <p>Here are some of the things I've built!</p>
-    <div class="flex flex-col">
+    <div class="grid grid-cols-1 gap-8">
         <Project title="GloomyBB"
                  info="GloomyBB is a forum software designed to allow users to communicate with ease.
                 Users can share their ideas across different categories and forums."
@@ -33,7 +34,7 @@
                     {
                         id: 3,
                         name: "MariaDB",
-                        image: "mariadb-logo-black.svg"
+                        image: "mariadb-logo.svg"
                     },
                     {
                         id: 4,
@@ -72,6 +73,7 @@
                  showTitleImage={false}
                  link="https://github.com/johnvinh/john-vinh-website"
         />
+
         <Project title="NumPuz"
                  info="NumPuz is a classic puzzle game where the player has to arrange the numbers in order. This game was built using Java Swing."
                  titleImage="num-puz-title.svg"

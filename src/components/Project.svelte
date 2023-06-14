@@ -19,7 +19,7 @@
     <a href={link}><p class="text-center">Project Link</p></a>
     <p>{info}</p>
     <h4 class="font-bold my-5">Technologies Used</h4>
-    <div class="container flex flex-row lg:flex-row lg:space-x-5 justify-evenly">
+    <div class="container grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 justify-items-center">
         {#each technologies as technology (technology.id)}
             <img src="/images/{technology.image}"
                  class="w-[45px] h-[45px] md:w-[55px] md:h-[55px] lg:w-[75px] lg:h-[75px]" alt="{technology.name} logo">
@@ -29,13 +29,9 @@
 
 <style>
     .box {
-        background-color: #f5f5f5;
+        background-color: #242424;
         border-radius: 10px;
         padding: 1rem;
-    }
-
-    .box:hover {
-        box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
     }
 
     .box img {
@@ -50,19 +46,5 @@
         margin-top: 1rem;
     }
 
-    .box a {
-        color: #000;
-    }
 
-    .box a:hover {
-        color: #000;
-    }
-
-    .box a:visited {
-        color: #000;
-    }
-
-    .box a:active {
-        color: #000;
-    }
 </style>
