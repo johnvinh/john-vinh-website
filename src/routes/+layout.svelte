@@ -37,16 +37,16 @@
 <style>
     :global(body) {
         font-family: "Ubuntu", "Verdana", serif;
-        background-color: #F1FAEE;
-        color: #000;
+        background-color: #121212;
+        color: #E0E0E0;
     }
 
     :global(a) {
-        color: #E63946;
+        color: #BB86FC;
     }
 
     :global(a:hover) {
-        color: #A8DADC;
+        color: #3700B3;
     }
 
     :global(a:active) {

@@ -29,7 +29,7 @@
 
 <style>
     .box {
-        background-color: #f5f5f5;
+        background-color: #B3B3B3;
         border-radius: 10px;
         padding: 1rem;
     }
