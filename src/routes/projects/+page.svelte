@@ -1,6 +1,7 @@
 <script>
     import Project from '/src/components/Project.svelte';
     import Title from '../../components/Title.svelte';
+    import Hero from "../../components/Hero.svelte";
 </script>
 
 <svelte:head>
@@ -13,12 +14,13 @@
     </Title>
     <p>Here are some of the things I've built!</p>
     <div class="flex flex-col">
-        <Project title="GloomyBB"
-                 info="GloomyBB is a forum software designed to allow users to communicate with ease.
+        <Hero>
+            <Project title="GloomyBB"
+                     info="GloomyBB is a forum software designed to allow users to communicate with ease.
                 Users can share their ideas across different categories and forums."
-                 titleImage="gloomybb-title.svg"
-                 mainImage="gloomybb.png"
-                 technologies={
+                     titleImage="gloomybb-title.svg"
+                     mainImage="gloomybb.png"
+                     technologies={
                  [
                     {
                         id: 1,
@@ -42,6 +44,7 @@
                     }
                 ]
                  } link="https://github.com/johnvinh/gloomybb"/>
+        </Hero>
         <Project title="Personal Portfolio"
                  info="This website! My website was created using SvelteKit, Tailwind CSS, and a PocketBase backend."
                  mainImage="website.png"
@@ -72,11 +75,12 @@
                  showTitleImage={false}
                  link="https://github.com/johnvinh/john-vinh-website"
         />
-        <Project title="NumPuz"
-                 info="NumPuz is a classic puzzle game where the player has to arrange the numbers in order. This game was built using Java Swing."
-                 titleImage="num-puz-title.svg"
-                 mainImage="numpuz.png"
-                 technologies={
+        <Hero>
+            <Project title="NumPuz"
+                     info="NumPuz is a classic puzzle game where the player has to arrange the numbers in order. This game was built using Java Swing."
+                     titleImage="num-puz-title.svg"
+                     mainImage="numpuz.png"
+                     technologies={
                  [
                     {
                         id: 1,
@@ -85,8 +89,9 @@
                     }
                 ]
                  }
-                 link="https://github.com/johnvinh/num-puz"
-        />
+                     link="https://github.com/johnvinh/num-puz"
+            />
+        </Hero>
         <Project title="Conway's Game of Life"
                  info="Conway's Game of Life is a cellular automaton devised by the British mathematician John Horton Conway in 1970.
                      The user provides an initial input of 'alive' cells and the game automatically evolves based on the rules. This is am implementation

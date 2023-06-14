@@ -10,7 +10,7 @@
     export let showTitleImage = true;
 </script>
 
-<div class="mt-10 box">
+<div class="mt-10">
     {#if showTitleImage}
         <img src="/images/{titleImage}" alt="{title}" class="md:w-1/2 mx-auto">
     {/if}
