@@ -5,51 +5,13 @@
     export let link;
 </script>
 
-<div class="mt-10">
+<div class="mt-10 p-6 max-w-2xl mx-auto bg-white rounded-xl shadow-md flex items-center space-x-4">
     <a href="{link}" target="_blank">
-        <img src="{image}" alt="{title}" class="w-full">
+        <img src="{image}" alt="{title}" class="w-full rounded-lg">
     </a>
-    <h3 class="text-xl font-bold">{title}</h3>
-    <a href="{link}" target="_blank">GitHub Repository</a>
-    <p>{description}</p>
+    <div>
+        <h3 class="text-xl font-bold">{title}</h3>
+        <a href="{link}" target="_blank" class="text-blue-500 hover:underline">GitHub Repository</a>
+        <p class="mt-2 text-gray-500">{description}</p>
+    </div>
 </div>
-
-<style>
-    .box {
-        background-color: #f5f5f5;
-        border-radius: 10px;
-        padding: 1rem;
-    }
-
-    .box:hover {
-        box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
-    }
-
-    .box img {
-        border-radius: 10px;
-    }
-
-    .box h3 {
-        margin-top: 1rem;
-    }
-
-    .box p {
-        margin-top: 1rem;
-    }
-
-    .box a {
-        color: #000;
-    }
-
-    .box a:hover {
-        color: #000;
-    }
-
-    .box a:visited {
-        color: #000;
-    }
-
-    .box a:active {
-        color: #000;
-    }
-</style>

@@ -1,19 +1,18 @@
 <script>
     import Project from '/src/components/Project.svelte';
     import Title from '../../components/Title.svelte';
-    import Hero from "../../components/Hero.svelte";
 </script>
 
 <svelte:head>
     <title>Projects - John Vinh: Software Developer</title>
 </svelte:head>
 
-<section class="mt-10">
+<section class="mt-10 px-4 sm:px-6 lg:px-8">
     <Title>
         My Projects
     </Title>
-    <p>Here are some of the things I've built!</p>
-    <div class="grid grid-cols-1 gap-8">
+    <p class="text-gray-600 mb-6">Here are some of the things I've built!</p>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         <Project title="GloomyBB"
                  info="GloomyBB is a forum software designed to allow users to communicate with ease.
                 Users can share their ideas across different categories and forums."

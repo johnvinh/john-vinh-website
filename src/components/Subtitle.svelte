@@ -1,4 +1,3 @@
-<h2 class="text-2xl md:text-4xl my-10 border-b-linkpurple border-solid border-b-2 inline-block
- transition transition-all ease-in-out duration-300 hover:text-linkpurple">
+<h2 class="text-2xl md:text-4xl my-6 border-b-2 border-blue-400 inline-block transition-colors duration-300 hover:text-blue-400">
     <slot></slot>
 </h2>

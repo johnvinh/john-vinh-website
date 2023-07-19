@@ -10,14 +10,17 @@
 <svelte:head>
     <title>Blog - John Vinh: Software Developer</title>
 </svelte:head>
+
 <Title>
     Blog
 </Title>
 
-{#if posts && posts.length}
-    {#each posts as post (post.id)}
-        <Post
-            {post}
-        />
-    {/each}
-{/if}
+<div class="space-y-8">
+    {#if posts && posts.length}
+        {#each posts as post (post.id)}
+            <Post
+                    {post}
+            />
+        {/each}
+    {/if}
+</div>

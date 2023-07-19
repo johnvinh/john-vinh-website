@@ -1,5 +1,6 @@
 <script>
     import Title from '../../../components/Title.svelte';
+    import "$lib/new-post.css";
 
     export let data;
     let post = JSON.parse(data.post);
@@ -10,19 +11,21 @@
 
 <svelte:head>
     <title>{`${post.title} - John Vinh: Software Developer`}</title>
-    <link rel="stylesheet" href="/post.css" />
 </svelte:head>
-{#if post}
-    <Title>
-        {post.title}
-    </Title>
-    <p>{prettyDate}</p>
-    <p class="w-fit md:text-2xl lg:w-[75%] mt-10">
-        {@html post.content}
-    </p>
-{/if}
-{#if !post}
-    <Title>
-        Loading...
-    </Title>
-{/if}
+
+<div class="space-y-8">
+    {#if post}
+        <Title>
+            {post.title}
+        </Title>
+        <p class="text-lg text-gray-500">{prettyDate}</p>
+        <div class="prose lg:prose-xl mt-10">
+            {@html post.content}
+        </div>
+    {/if}
+    {#if !post}
+        <Title>
+            Loading...
+        </Title>
+    {/if}
+</div>
