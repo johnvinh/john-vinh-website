@@ -8,7 +8,7 @@
     <title>Home - John Vinh: Software Developer</title>
 </svelte:head>
 <TopHeader />
-<ul class="my-10">
-    <li class="font-bold md:text-3xl mb-5">Read more <a href="/about">about me!</a></li>
-    <li class="font-bold md:text-3xl">Check out all of <a href="/projects">my projects!</a></li>
-</ul>
+<div class="my-10 space-y-6">
+    <h2 class="font-bold text-2xl md:text-3xl"><a href="/about" class="text-blue-500 hover:underline">Read more about me!</a></h2>
+    <h2 class="font-bold text-2xl md:text-3xl"><a href="/projects" class="text-blue-500 hover:underline">Check out all of my projects!</a></h2>
+</div>

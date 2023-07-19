@@ -11,37 +11,19 @@
 </svelte:head>
 
 <NavigationBar />
-<main class="w-[65%] md:w-1/2 mx-auto">
+
+<main class="mx-auto max-w-screen-lg px-4 sm:px-6 lg:px-8 py-6">
     <slot></slot>
 </main>
-<footer class="flex flex-row mt-10 w-1/2 mx-auto justify-center">
+
+<footer class="flex flex-row mt-10 justify-center space-x-4">
     <a href="https://www.linkedin.com/in/john-vinh/">
-        <img src="/images/linkedin-logo.svg" alt="LinkedIn logo" class="w-[50px] h-[50px]">
+        <img src="/images/linkedin-logo.svg" alt="LinkedIn logo" class="w-12 h-12">
     </a>
     <a href="https://twitter.com/JohnVinhDev">
-        <img src="/images/twitter-logo.svg" alt="Twitter logo" class="w-[50px] h-[50px]">
+        <img src="/images/twitter-logo.svg" alt="Twitter logo" class="w-12 h-12">
     </a>
     <a href="https://github.com/johnvinh">
-        <img src="/images/github-logo-light.svg" alt="GitHub logo" class="w-[50px] h-[50px]">
+        <img src="/images/github-logo-light.svg" alt="GitHub logo" class="w-12 h-12">
     </a>
 </footer>
-
-<style>
-    :global(body) {
-        font-family: "Ubuntu", "Verdana", serif;
-        background-color: #121212;
-        color: #E0E0E0;
-    }
-
-    :global(a) {
-        color: #BB86FC;
-    }
-
-    :global(a:hover) {
-        color: #3700B3;
-    }
-
-    :global(a:active) {
-        color: #457B9D;
-    }
-</style>
