@@ -8,6 +8,7 @@
     <link rel="icon" href="favicon.ico" />
     <meta charset="utf-8">
     <meta name="description" content="John Vinh is a computer engineering student and software developer.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </svelte:head>
 
 <NavigationBar />
