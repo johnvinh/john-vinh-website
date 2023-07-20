@@ -28,6 +28,10 @@ export async function getPostById(id)
     return post;
 }
 
+/**
+ * @param {FormDataEntryValue | null} title
+ * @param {FormDataEntryValue | null} content
+ */
 export async function createPost(title, content)
 {
     const email = import.meta.env.VITE_POCKETBASE_EMAIL;
@@ -35,10 +39,11 @@ export async function createPost(title, content)
     const host = import.meta.env.VITE_POCKETBASE_HOST;
     const client = new PocketBase(`${host}:8090`);
     await client.admins.authViaEmail(email, password);
+    if (title === null || content === null) return false;
     try {
         await client.records.create('posts', {
-            title: title,
-            content: content.replace(/\n/g, "<br />")
+            title,
+            content
         });
     } catch (e) {
         console.log(e);
