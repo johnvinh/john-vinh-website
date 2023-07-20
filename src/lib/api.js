@@ -12,6 +12,9 @@ export async function getPosts()
     });
 }
 
+/**
+ * @param {string} id
+ */
 export async function getPostById(id)
 {
     const email = import.meta.env.VITE_POCKETBASE_EMAIL;
@@ -52,6 +55,10 @@ export async function createPost(title, content)
     return true;
 }
 
+/**
+ * @param {string} username
+ * @param {string} password
+ */
 export async function login(username, password)
 {
     const host = import.meta.env.VITE_POCKETBASE_HOST;
