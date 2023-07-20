@@ -1,6 +1,7 @@
 <script>
     import Title from '../../../components/Title.svelte';
     import Subtitle from '../../../components/Subtitle.svelte';
+    import Editor from "../../../components/Editor.svelte";
 
     /** @type {import('./$types').ActionData} */
     export let form;
@@ -42,6 +43,6 @@
             Content
         </Subtitle>
     </label>
-    <textarea class="block w-full h-screen" name="content" id="content" placeholder="Content"></textarea>
+    <Editor />
     <button class="bg-themered text-white p-5 mt-10 rounded-2xl" type="submit">Submit</button>
 </form>
