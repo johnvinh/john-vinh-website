@@ -18,7 +18,7 @@
         <Title>
             {post.title}
         </Title>
-        <p class="text-lg text-gray-500">{prettyDate}</p>
+        <p class="text-lg text-gray-500">Posted {prettyDate} by John Vinh</p>
         <div class="prose lg:prose-xl mt-10">
             {@html post.content}
         </div>
