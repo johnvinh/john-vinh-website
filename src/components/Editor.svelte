@@ -1,11 +1,6 @@
 <script>
-    import { onMount } from 'svelte';
-    import { browser } from '$app/environment';
-
-    /*import tinymce from 'tinymce/tinymce';
-    import 'tinymce/themes/silver';
-    import 'tinymce/plugins/link';
-    import 'tinymce/plugins/table';*/
+    import {onMount} from 'svelte';
+    import {browser} from '$app/environment';
 
     let textarea;
 
