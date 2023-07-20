@@ -14,8 +14,8 @@
 
                 tinymce.init({
                     target: textarea,
-                    plugins: ['link', 'table'], // add more plugins as needed
-                    toolbar: 'undo redo | styleselect | bold italic | alignleft aligncenter alignright alignjustify | outdent indent | link table', // customize the toolbar as needed
+                    plugins: ['link', 'table' ,'lists'], // add more plugins as needed
+                    toolbar: 'undo redo | styleselect | bold italic | alignleft aligncenter alignright alignjustify | outdent indent | link table | numlist bullist', // customize the toolbar as needed
                     base_url: '/node_modules/tinymce', // point to tinymce in node_modules
                     suffix: '', // no suffix for modern browsers
                     // add more options as needed
