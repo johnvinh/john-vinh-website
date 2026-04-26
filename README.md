@@ -1,38 +1,48 @@
-# create-svelte
+# Personal Portfolio Website
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+A personal portfolio and blog built with SvelteKit, Tailwind CSS, and a PocketBase backend. The site showcases my projects and hosts blog posts authored through a rich-text editor.
 
-## Creating a project
+## Features
 
-If you're seeing this, you've probably already done this step. Congrats!
+- **Home, About, and Projects pages** — static content highlighting my background and the projects I've built.
+- **Projects gallery** — each project is rendered with its title, description, screenshot, and a list of technology badges.
+- **Blog** — posts are loaded from a PocketBase backend, with a dedicated post view rendered via Tailwind Typography.
+- **Blog editor** — authenticated authoring page using TinyMCE for rich-text content creation.
+- **Server-side rendering** — pages and post data are loaded server-side through SvelteKit's `+page.server.js` loaders.
+- **Responsive layout** — Tailwind CSS handles styling across mobile, tablet, and desktop breakpoints.
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+## Tech stack
 
-# create a new project in my-app
-npm create svelte@latest my-app
+- **Framework:** SvelteKit (Node adapter)
+- **Language:** TypeScript / JavaScript
+- **Styling:** Tailwind CSS + `@tailwindcss/typography`
+- **Backend:** PocketBase (for blog content)
+- **Editor:** TinyMCE
+- **Build tool:** Vite
+
+## Project structure
+
+```
+src/
+├── components/   Reusable UI (Hero, NavigationBar, Project card, Editor, etc.)
+├── lib/          API helpers for talking to PocketBase
+└── routes/       SvelteKit pages: home, about, projects, blog (list/post/create)
 ```
 
-## Developing
+## Running locally
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+Install dependencies and start the dev server:
 
 ```bash
+npm install
 npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
 ```
 
-## Building
-
-To create a production version of your app:
+To create and preview a production build:
 
 ```bash
 npm run build
+npm run preview
 ```
 
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+The blog features expect a running PocketBase instance; the URL is read from environment variables loaded via `dotenv`.
